@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: red;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 20rem);
+  grid-template-rows: repeat(4, 20rem);
+}
+.div {
+  border: 1px solid black;
+  margin: 0.5rem;
+}
+.div1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url(https://i.pinimg.com/736x/b7/27/17/b72717199ceb8bd4d6b583b91c4e660b.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background-image: url(https://iasbh.tmgrup.com.tr/07e5fa/366/218/25/0/719/414?u=https://isbh.tmgrup.com.tr/sbh/2018/01/18/fevzi-cakmak-kimdir--1516279599019.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div4 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background-image: url(https://www.ismetinonu.org.tr/wp-content/uploads/2018/09/rutbeleri-k.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div6 {
+  grid-row-start: 3;
+  grid-row-end: 5;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Kiazim_Karabekir_Pasha_with_Djemaliye.jpg/220px-Kiazim_Karabekir_Pasha_with_Djemaliye.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div7 {
+  background-image: url(http://admin.biyografya.com/_docs/photos/5897ed841a0b63dc0e34463db2bf8533.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div8 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b9/Sakalli_Nureddin_Pasha.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div10 {
+  background-image: url(https://i.pinimg.com/736x/e4/7a/a1/e47aa1c9b643c099bc2c2bfd9844d2b7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div11 {
+  background-image: url(https://img.piri.net/resim/upload/2017/12/18/03/19/b72d3af3erghteef.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div13 {
+  background-image: url(https://i.hizliresim.com/lQolkg.jpg);
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div14 {
+  background-image: url(https://pbs.twimg.com/media/EWg4ZZLWsAEM8gy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div15 {
+  background-image: url(https://1.bp.blogspot.com/-PP1Bs00tkjU/Xbpf3twJFQI/AAAAAAAAAFE/WGCMlVefZTkHJjHIKEKc9qxcEubOu4MwACNcBGAsYHQ/s1600/NuriConker.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

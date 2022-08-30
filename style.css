@@ -3,8 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: bisque;
+}
 header {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-image: linear-gradient(to right, red, rgb(240, 138, 138));
   display: flex;
   width: 100%;
@@ -21,7 +24,7 @@ header img:hover {
   transform: rotateY(360deg);
 }
 .navbar {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   height: 3rem;
   background-color: darkblue;
@@ -36,4 +39,76 @@ header img:hover {
 }
 .navbar a:hover {
   color: gold;
+}
+.container {
+  /* border: 1px solid red; */
+  background-image: url(https://iasbh.tmgrup.com.tr/a6c1b6/650/344/7/0/1200/627?u=https://isbh.tmgrup.com.tr/sbh/2021/05/14/kurtulus-savasi-tarihi-kahramanlari-cepheleri-nedenleri-ve-sonuclari-kurtulus-savasi-ne-zaman-basladi-ve-bitti-e1-1620998418954.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  margin: 1rem;
+  padding: 2rem;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 40px 40px;
+}
+.div {
+  /* border: 1px solid red; */
+  width: 40rem;
+  height: 20rem;
+  transition: all 2s;
+}
+.div:hover {
+  box-shadow: 3px 5px 5px 2px;
+  transform: scale(1.1, 1.1);
+}
+.div p {
+  /* border: 1px solid red; */
+  width: 10rem;
+  height: 2rem;
+  background-color: black;
+  text-align: center;
+  padding-top: 0.5rem;
+  color: red;
+  text-decoration: none;
+}
+.div p:hover {
+  background-color: red;
+  color: black;
+}
+.div1 {
+  background-image: url(https://ikizkare.com/uploads/28763219202973821504.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div2 {
+  background-image: url(https://www.turkcebilgi.com/uploads/baslik/thumb/dogu-cephesi-5e0f045d5f4fc.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div3 {
+  background-image: url(https://morpa.akamaized.net/mobil/files/em/resim2/8sy3t1kak_2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div4 {
+  background-image: url(https://derstarih.com/wp-content/uploads/2021/03/el-cezire-harita.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer {
+  /* border: 1px solid red; */
+  text-align: center;
+  width: 100%;
+
+  padding: 1rem;
+
+  color: red;
+  font-size: larger;
 }
