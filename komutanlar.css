@@ -10,6 +10,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 20rem);
   grid-template-rows: repeat(4, 20rem);
+  justify-content: center;
 }
 .div {
   border: 1px solid black;
@@ -31,10 +32,22 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.div3 {
+  background-image: url(https://miro.medium.com/max/800/1*TwloMT0beXDcB0FAambwXA.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .div4 {
   grid-column-start: 2;
   grid-column-end: 4;
   background-image: url(https://www.ismetinonu.org.tr/wp-content/uploads/2018/09/rutbeleri-k.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div5 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWQtX1Ft77XPtqiuWDhaZBt8oCRvIVAMrtH3ZbmvrFxXHoNXd3KUimWkHvGmZB7SQNOt8&usqp=CAU);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,6 +72,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.div9 {
+  background-image: url(http://admin.biyografya.com/_docs/photos/89913e2e1c1bd1fcbea9063523ad4871.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .div10 {
   background-image: url(https://i.pinimg.com/736x/e4/7a/a1/e47aa1c9b643c099bc2c2bfd9844d2b7.jpg);
   background-position: center;
@@ -68,6 +87,12 @@ body {
 .div11 {
   background-image: url(https://img.piri.net/resim/upload/2017/12/18/03/19/b72d3af3erghteef.jpg);
 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div12 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROhLOwoVUS3ev1Nh-0-9ecWcSYZcN4T2cJPcNX3yJ6LKsrBrKLs0oUL8uzD_RWONe4sT0&usqp=CAU);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,6 +112,12 @@ body {
 }
 .div15 {
   background-image: url(https://1.bp.blogspot.com/-PP1Bs00tkjU/Xbpf3twJFQI/AAAAAAAAAFE/WGCMlVefZTkHJjHIKEKc9qxcEubOu4MwACNcBGAsYHQ/s1600/NuriConker.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div16 {
+  background-image: url(https://admin.biyografya.com/_docs/photos/d2e1012370f74d236a48e5483710a411.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
